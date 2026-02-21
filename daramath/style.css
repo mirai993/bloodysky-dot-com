@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #222;
+    margin-top: -20px;
+}
+
+#graph-container {
+    width: 75vw;
+}
+
+#graph {
+    border-left: 3px solid #222;
+    width: 100%;
+}
+
+#sidebar {
+    width: 25vw;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+}
+
+#heading {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ccc;
+    text-align: center;
+    align-self: center;
+    user-select: none;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#functions-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    width: 100%;
+    height: 60%;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.function-container {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.function-label {
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+    border-right: 2px solid #222;
+    margin-right: 5px;
+}
+
+.function-symbol {
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.function-input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #555;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-bottom: 4px;
+}
+
+
+#button-container {
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-buttons-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200px;;
+    align-self: center;
+
+}
+
+.sidebar-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    background-color: #ddd;
+    color: #555;
+    font-family: 'Roboto' sans-serif;
+    font-size: 32px;
+    user-select: none;
+    margin: 5px;
+}
+
+.sidebar-button:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
